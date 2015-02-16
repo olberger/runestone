@@ -21,8 +21,8 @@
 
             <div class="container">
               <div class="carousel-caption">
-                <h1>Welcome to Interactive Python</h1>
-                <p>Interactive Python is a project of Runestone Interactive.  We host a growing number of Open Source, Interactive Textbooks. Written by award winning authors. Used by some of the best schools.</p>
+                <h1>{{=T("Welcome to Interactive Python")}}</h1>
+                <p>{{=T("Interactive Python is a project of Runestone Interactive.  We host a growing number of Open Source, Interactive Textbooks. Written by award winning authors. Used by some of the best schools.")}}</p>
                 <p><a class="btn btn-lg btn-primary" href="http://runestoneinteractive.org/library.html" role="button">See the List</a>
                    <a class="btn btn-lg btn-primary" href="http://interactivepython.org/runestone/static/overview/overview.html" role="button">Take a Tour</a>
                 </p>
@@ -36,7 +36,7 @@
             <div class="carousel-caption">
               <h1>How to Think Like a Computer Scientist: Interactive Edition</h1>
               <p>Based on the original open source book.  Learn Python, try examples, answer questions, interactively, right in the book!</p>
-              <p><a class="btn btn-lg btn-primary" href="http://interactivepython.org/runestone/static/thinkcspy/index.html" role="button">Try it Now</a></p>
+              <p><a class="btn btn-lg btn-primary" href="http://interactivepython.org/runestone/static/thinkcspy/index.html" role="button">{{=T("Try it Now")}}</a></p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@
 <div class='col-md-6'>
   <h2>{{=T( request.args(0).replace('_',' ').capitalize() )}}</h2>
   <div id="loginexp">
-    <p><strong>Why Log in?</strong>  Excellent question.  You don't need to log in to use the books we've provided.  But you won't be able to save your work and come back to it later.  Don't worry: we have no plans to spam you with email, and we will never sell your contact information to anyone.  If you are a student that is part of a course, please <a  href="{{=URL(args='register')}}" >{{=T('register')}}</a> and/or login.  When you register be sure to choose the course that your instructor has given you.</p>
+    <p><strong>{{=T("Why Log in?")}}</strong>  Excellent question.  You don't need to log in to use the books we've provided.  But you won't be able to save your work and come back to it later.  Don't worry: we have no plans to spam you with email, and we will never sell your contact information to anyone.  If you are a student that is part of a course, please <a  href="{{=URL(args='register')}}" >{{=T('register')}}</a> and/or login.  When you register be sure to choose the course that your instructor has given you.</p>
   </div>
 
   <div id="web2py_user_form">
@@ -119,7 +119,7 @@
 </script>
 
 <div class='col-md-6'>
-  <h2>More Information</h2>
+  <h2>{{=T("More Information")}}</h2>
     <ul>
         <li>Instructors:<ul><li> <a href='/{{=request.application}}/static/overview/instructor.html'>How do I use this for my course?</a></li>
         <li><a href="http://runestoneinteractive.org/instructors.html">How can I make my own lecture materials?</a></li>
