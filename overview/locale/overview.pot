@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013 Brad Miller, David Ranum
+# This file is distributed under the same license as the Runestone Interactive Overview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Runestone Interactive Overview 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-16 14:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../overview.rst:22
+# 4f541e135ec84f579253c758bb9209be
+msgid "An Overview of Runestone Interactive"
+msgstr ""
+
+#: ../overview.rst:24
+# cefc56abc09b4083baefa08294548308
+msgid "Runestone Interactive is a project focusing on providing tools and content for the purpose of creating interactive computer science courseware.  We provide a complete introductory series of chapters that can be used as is, or if you wish, you can customize the chapters.  You can even start from scratch and write your own interactive textbook using the tools that we provide. In order to see how the tools work, the following sections will show them in action."
+msgstr ""
+
+#: ../overview.rst:32
+# 8653794e1ddb48dca6a77f38cd8c5967
+msgid "Embedded Videos"
+msgstr ""
+
+#: ../overview.rst:34
+# 466b61bda7cc41ab8ce202e8c4609560
+msgid "Our toolset provides a number of different things that will help you to learn to program in the Python programming language. Aside from reading the text, it is sometimes useful to hear someone tell you about different aspects of the topic being discussed. In order to accomplish this, we provide a way to integrate simple, short videos into the text.  For example, if you click on the video shown below, you will hear us talk about the tools that will be described shortly."
+msgstr ""
+
+#: ../overview.rst:49
+# 1e7f3acbe585431699d7b51e665b9cea
+msgid "YouTube"
+msgstr ""
+
+#: ../overview.rst:59
+# 213f37e12cde4fd6a3263d9287cfc7b2
+msgid "ActiveCode Windows"
+msgstr ""
+
+#: ../overview.rst:61
+# a692335eb4b74fff98d6e67a56bb5d81
+msgid "One of the most important things that you can do when you are learning a programming language is to write programs.  Unfortunately, typical textbooks allow you to read about programming but don't allow you to practice.  We have created a unique tool called **activecode** that allows you to write, modify, and execute programs right in the text itself (right from the web browser).  Although this is certainly not the way real programs are written, it provides an excellent environment for learning a programming language like Python since you can experiment with the language as you are reading."
+msgstr ""
+
+#: ../overview.rst:67
+# 53b0379d74674f978b935127e4bc5d57
+msgid "Take a look at the activecode interpreter in action.  If we take a simple Python program and make it active, you will see that it can be executed directly by pressing the *run* button.   Try pressing the *run* button below."
+msgstr ""
+
+#: ../overview.rst:80
+# a615fdf00d7043af94b69b6dec2f6300
+msgid "Now try modifying the activecode program shown above.  First, modify the string in the first print statement by changing the word *adds* to the word *multiplies*.  Now press *run*.  You can see that the result of the program has changed.  However, it still prints \"5\" as the answer.  Modify the second print statement by changing the addition symbol, the \"+\", to the multiplication symbol, \"*\".  Press *run* to see the new results. You can do this as many times as you like.  You can even start completely over by simply deleting all the code from the window."
+msgstr ""
+
+#: ../overview.rst:86
+# 36e54c99ac7b4403833cbdc2adcba41d
+msgid "If you are a registered user and have logged in, it is possible to save the changes you make for reloading later. *Save* and *Load* buttons will appear that allow you to keep one copy of the program you are working on. Note that these saved programs can be accessed from anywhere if you have logged in.  However, if you are working anonymously, then you will lose your work at the end of the session."
+msgstr ""
+
+#: ../overview.rst:92
+# 6ef3583a31bc4ddda741a666bfe25b67
+msgid "Activecode is even capable of executing graphical programs that use the built in Python turtle module. The program shown below is a very interesting graphics program that uses the turtle and the idea of recursion to construct a type of fractal called a Sierpinski Triangle.  Once you run the program, try experimenting with the number of triangle levels.  You can find this on line 39 (it is currently set to 3).  Try 4! Try some other changes and see what happens (maybe change a few of the colors or make the level 2).  If you ever want to go back to the original example, simply reload the page in the browser.  One of the great things about activecode is that you can experiment as much as you want.  This can be very helpful as you are learning to program."
+msgstr ""
+
+#: ../overview.rst:152
+# a3f7df389ad2434681f8bf0cb6e34707
+msgid "The CodeLens Tool"
+msgstr ""
+
+#: ../overview.rst:155
+# 2b809a7b5a06438880bc6c27af21f434
+msgid "In addition to activecode, you can also execute Python code with the assistance of a unique visualization tool.  This tool, known as **codelens**, allows you to control the step by step execution of a program.  It also lets you see the values of all variables as they are created and modified.  The following example shows codelens in action on the same simple program as we saw above.  Remember that in activecode, the source code executes from beginning to end and you can see the final result.  In codelens you can see and control the step by step progress.  Try clicking on the forward button below."
+msgstr ""
+
+#: ../overview.rst:165
+# aa8e64226350425eb8615fa77eec25ce
+msgid "Note that you can control the step by step execution and you can even move forward and backward thru the statements as they execute.  The following example shows a more sophisticated program using Python lists.  The codelens tool draws very useful pictures as the statements are being executed.  These pictures, called reference diagrams, are very helpful as you learn about the more complex aspects of Python."
+msgstr ""
+
+#: ../overview.rst:180
+# 9965525ba4bb4288919008178815cce5
+msgid "Self-Check Questions"
+msgstr ""
+
+#: ../overview.rst:182
+# dc10032e3aaa486595d0c17a36a0edee
+msgid "Finally, it is also possible to embed simple questions into the text.  These questions provide a way for the students to check themselves as they go along.  The questions also provide feedback so that you can understand why an answer may or may not be correct."
+msgstr ""
+
+#: ../overview.rst:186
+#: ../overview.rst:231
+# 6ec0c9a3b43e464fbfc9dc728a22280d
+# 8931373a39d94f4f88927b2349aeeec6
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../overview.rst:199
+# 7348dc80ccc64063be5d2ab19645fd36
+msgid "sc-1-1: What programming language does this site help you to learn?"
+msgstr ""
+
+#: ../overview.rst:202
+# 1ec655d516084ab8a547d6936f01094b
+msgid "This next type of question allows more than one correct answer to be required.  The feedback will tell you whether you have the correct number as well as the feedback for each."
+msgstr ""
+
+#: ../overview.rst:217
+# 04198bcb621e49f2a81ca9f1f7cf1008
+msgid "sc-1-2: Which colors might be found in a rainbow? (choose all that are correct)"
+msgstr ""
+
+#: ../overview.rst:220
+# 590af3b06e6449dc94cb2c90b45cc8d2
+msgid "Another type of question allows you as the instructor to ask for a value.  You can test for the value using Pythons regular expressions.  For example:"
+msgstr ""
+
+#: ../overview.rst:226
+# 0490bda5f1064eaaa8bbce16073555b5
+msgid "sc-1-3: What is value of 25 expressed as an octal number (base 8) :textfield:`baseconvert1_ans1::mini`"
+msgstr ""
+
+#: ../overview.rst:229
+# bce36476b5ea4f7ca982002218bd810c
+msgid "And finally here is a way of giving your students some simple programming problems where the code is already there for them but not indented or in the correct order.  Use drag-and-drop to get everthing right."
+msgstr ""
+
+#: ../overview.rst:243
+# 60ebea15c91342549169095885dd75b5
+msgid "Here is a different sort of codelens visualization.  Some codelens blocks can have questions embedded in them that will ask you a question about the value of a variable, or which line will be the next line to execute.  This example asks you to keep track of the ``tot`` variable as you step through the loop."
+msgstr ""
+
+#: ../overview.rst:261
+# eb9be43ea7cc44ac952ee255d3de1f6a
+msgid "Here's another example that asks the student to predict which line will be the next line executed."
+msgstr ""
+
+#: ../overview.rst:280
+# b74a5f8ee92f4f87bb655d52c9efcbd3
+msgid "Unit Tests for Code"
+msgstr ""
+
+#: ../overview.rst:282
+# 21d9e5db7f314efd9b5a21e3c7dcaac0
+msgid "Its nice to be able to have students solve a particular problem by writing some code, its even better if you can give them some feedback and provide some tests for them.  Much of the ``unittest`` module from Python is available in the ``unittest`` module for activecode.  Take a look:"
+msgstr ""
+
+#: ../overview.rst:300
+# 10b809035d5846b8939ff9a0beaf9e2c
+msgid "Before you go on, fix the add function in the activecode box.  The full complement of assertXXX functions is available.  You can see the list `Here <http://docs.python.org/2/library/unittest.html#assert-methods>`_.  Now, for an introductory course exposing the inner workings of the unittest class may lead to more confusion that anything.  But, you can still get the benefit of the unittest module with activecode by placing it in the hidden code at the end.  You can hide the code by placing it after a line that contains ``====``.  The source code for the above example with the unit tests hidden would look like this:"
+msgstr ""
+
+#: ../overview.rst:320
+# 6a36e284a6884d25abfd33c074facaf8
+msgid "**Check Your Understanding**"
+msgstr ""
+
+#: ../overview.rst:322
+# f4098b3334c14ab0a18bd26530573866
+msgid "Fix the following code so that it always correctly adds two numbers."
+msgstr ""
+
+#: ../overview.rst:345
+# 9e09b160bfb54225940c0c04553cc85b
+msgid "Disqus Comment Box"
+msgstr ""
+
+#: ../overview.rst:347
+# 998690a9deed4256aa81be2ccfc5959b
+msgid "A comment box allowing users to add comments and start discussions can be added. A comment box can be added at the page level, but also for an individual section or question, allowing discussion of that particular content."
+msgstr ""
+
+#: ../overview.rst:355
+# a558311e8e334792a527886843ed3b6a
+msgid "Tabbed Question"
+msgstr ""
+
+#: ../overview.rst:357
+# 01607cab3ea24207b14cf6337054a764
+msgid "Any of the existing question types can be placed in a tabbed exhibit-style question. This may be used to provide an possible answer or a Disqus discussion box specifically related to a certain question."
+msgstr ""
+
+#: ../overview.rst:363
+# b22b142c6e654b2cb7a22c8070b676a7
+msgid "Write a program that prints \"Hello, world\"."
+msgstr ""
+
+#: ../overview.rst:377
+# d0a45adaa92b42759ad7f9e3200fc15f
+msgid "We are working on additional question types as well.  Give us your feedback on our `Facebook page <http://www.facebook.com/RunestoneInteractive>`_."
+msgstr ""
+
+#: ../overview.rst:380
+# a42f7569fac14410a4f6d8f1963834d1
+msgid "Polls"
+msgstr ""
+
+#: ../overview.rst:389
+# 51c3b805a9a748a38703a73b52d50928
+msgid "Reveals"
+msgstr ""
+
+#: ../overview.rst:394
+# e4f12283560149faa03e6e1e69df66b9
+msgid "This content starts out hidden. It's visibility can be toggled by using the Show/Hide button."
+msgstr ""
+
+#: ../overview.rst:396
+# 4c7d1cd8af8c485191a60733c72adef0
+msgid "The reveal block can also contain other directives (ActiveCode, Disqus block, etc):"
+msgstr ""
+
+#: ../overview.rst:404
+# a1f8b459447d4109813cdf7b28c8d55f
+msgid "DOM Access"
+msgstr ""
+
+#: ../overview.rst:406
+# 1ed03cee9c6a4f6e841d6cd253aaca49
+msgid "Python programs written in activecode windows can now import the ``document`` module. This document module allows access to basic elements of the web page, including the new text entry box called **text1** :textfield:`text1:example input:medium` like this one.  Try running the program, then change the value in the text entry box and run it again."
+msgstr ""
+
+#: ../overview.rst:421
+# 2594f1e0d6c34cdb9e7fff233050c624
+msgid "JavaScript"
+msgstr ""
+
+#: ../overview.rst:423
+# 807aadd39fb2426b8ea7e4369727b272
+msgid "We have come to realize that not everyone loves Python as much as we do. So we have now made it possible to write activecode examples in pure javascript as well as Python.  Here is a simple example:"
+msgstr ""
+
+#: ../overview.rst:445
+# c7a2f2e77df1477596a441449880851a
+msgid "Adding a javascript example is just as easy as Python, all you need to do is add a ``:language:`` parameter to the activecode directive."
+msgstr ""
+
+#: ../overview.rst:449
+# 5e2f5c9192b743c9ad76f3871d38e7a3
+msgid "HTML"
+msgstr ""
+
+#: ../overview.rst:451
+# 7709ef0b524b4a03a2979b9ac732cabc
+msgid "Teaching a class on HTML and simple web design?  Why not use activecode for HTML too? Although you don't run HTML, clicking the run button will case the HTML to be rendered."
+msgstr ""
+
+#: ../overview.rst:475
+# 52ada6c5b020432aa75522e3e382ee75
+msgid "Blockly"
+msgstr ""
+
+#: ../overview.rst:508
+# 8bf644b94c2244e2891a7208a81fa781
+msgid "Add a print statement after the set X to 10.  Click on text and drag out a print block; connect it to the set block.  Then click on variables and drag out the X block and connect it to the print block.  Now click the run button and you should see 10 printed in the gray output area."
+msgstr ""
+
+#: ../overview.rst:515
+# b4e5985aa1614202a939fe5e3280d84a
+msgid "What To Do Now"
+msgstr ""
+
+#: ../overview.rst:517
+# c31316420f71459c9045e79fcb01d4e3
+msgid "Now that you have seen some of these tools in action, you can do more exploration by going back to the Runestone Interactive site and choosing the courseware examples that we have already created.  The first, **How to Think Like a Computer Scientist: Interactive Edition**, provides an introductory course.  This course covers the basic ideas of computer science and helps you learn Python programming.  The second course, **Problem Solving with Algorithms and Data Structures Using Python**, is a thorough introduction to data structures and algorithms using Python.  Topics include stacks, queues, trees, graphs, and recursion."
+msgstr ""
+
+#: ../overview.rst:523
+# dcd2ef61678745c29d3d86865ee97538
+msgid "We hope you will find these tools and materials useful.  If you want to get more involved, feel free to download the tools and write your own courseware.  Everything you need can be found in the current `GitHub repository <http://github.com/bnmnetp/runestone>`_."
+msgstr ""
+

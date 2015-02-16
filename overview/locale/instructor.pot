@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013 Brad Miller, David Ranum
+# This file is distributed under the same license as the Runestone Interactive Overview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Runestone Interactive Overview 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-16 14:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../instructor.rst:4
+# b7a7fe81df3d47d08be5f798ca4c6ee9
+msgid "Help for Instructors"
+msgstr ""
+
+#: ../instructor.rst:6
+# 675784ccbef84454a74523e4a65b3f5c
+msgid "If you are an instructor who is wondering what this interactive textbook is all about you may want to take a look at the :doc:`overview`.  This shows you the various features that are incorporated into our interactive textbooks."
+msgstr ""
+
+#: ../instructor.rst:8
+# 460d684d8a674c9ca76c98364c4299f4
+msgid "If you are thinking about using this book for your course but have some questions then this is a good place to start.  The rest of this help document is structured like a FAQ so you can quickly find the question you may have from the Page menu and hopefully it will be answered here."
+msgstr ""
+
+#: ../instructor.rst:11
+# a117d82b112140cda5856c7a093bfa08
+msgid "Can I build my own course and host it here?"
+msgstr ""
+
+#: ../instructor.rst:13
+# b276e728c9194e58bb79c47c24decde5
+msgid "Yes, we are currently hosting many courses for many different institutions around the world.  In fact in 2013 one large institution had 800 students using one of the books."
+msgstr ""
+
+#: ../instructor.rst:15
+# 7a15a7b4a0cc4f9f8134a147b2943001
+msgid "The best approach is to use our system to build your own textbook.  This gives you several advantages as an instructor including:"
+msgstr ""
+
+#: ../instructor.rst:17
+# 40b26445ec59429e9257c45777ac2e05
+msgid "a simple grading interface for homework problems at the end of each chapter"
+msgstr ""
+
+#: ../instructor.rst:18
+# 06f97758dab24cd3a6c9e98321ec35fd
+msgid "some simple reports on your students activities within the textbook."
+msgstr ""
+
+#: ../instructor.rst:19
+# 55fc790b536f47e3a374a27aee0d60ae
+msgid "at a glance information about the multiple choice and fill in the blank questions embedded in the text."
+msgstr ""
+
+#: ../instructor.rst:23
+# f36425b1dec342a9999cc009400746b9
+msgid "How do I build my own course?"
+msgstr ""
+
+#: ../instructor.rst:25
+# 54dfd7d976ff4ae689ed65f4578a6771
+msgid "First you should register yourself as a user on this site.  When you register you must pick a course.  Just use thinkcspy or pythonds, it doesn't matter as that will change when you build your own."
+msgstr ""
+
+#: ../instructor.rst:26
+# 6e009767f6cb47fbb82c6a9c2c24b899
+msgid "Then go to the `instructors page <http://interactivepython.org/runestone/admin/index>`_."
+msgstr ""
+
+#: ../instructor.rst:27
+# a8e1cd0321634942aec9929a46bd67d8
+msgid "On this page you will see the links for listing and grading assignments and lots of other things.  Right now those won't show you anything, so move along to the `Create a Custom Course <http://interactivepython.org/runestone/designer>`_ link."
+msgstr ""
+
+#: ../instructor.rst:28
+# 63a6587c6cdd4548ac44e274031479ea
+msgid "Fill in the Project Name.  This should be a short one word description of your course like `luther150a.`  When your students register for the course this is the name they will have to type in to join your particular course.   No Spaces allwed in this name."
+msgstr ""
+
+#: ../instructor.rst:29
+# ef1460517e2e4397a4ee785d45a8520e
+msgid "The description can say a bit more about the course."
+msgstr ""
+
+#: ../instructor.rst:30
+# 51e6a01c7f894b9bb8659b09cc1514c1
+msgid "The big choice is whether to use a ready-made book or to pick and choose sections from the repository of sections.  Most people just choose one of the pre-made books."
+msgstr ""
+
+#: ../instructor.rst:31
+# cff135418a84442e81539edfe5420dc0
+msgid "Its probably just fine to leave this at today's date.  If you set it into the future and then do some experimenting with assignments and quizzes today you won't be able to see your results because you are only shown things that come after the start date."
+msgstr ""
+
+#: ../instructor.rst:35
+# f97b3e42617b4300907d34f9a399c97f
+msgid "Is this site reliable enough to use in class?"
+msgstr ""
+
+#: ../instructor.rst:37
+# e20e542662c2493f9d1319d2827f86ee
+msgid "Yes.  All of the important parts of the book are served as static pages.  Everything else that happens either uses Javascript right in the browser, or background ajax calls that won't have any impact on the primary text.  We host this on a very reliable service and we monitor our traffic constantly.  In summer 2013 we increased our capacity in anticipation of higher traffic for Fall 2013."
+msgstr ""
+
+#: ../instructor.rst:41
+# e456920af60244a883921902338ff73c
+msgid "Why doesn't List and Grade Assignments doesn't show anything?"
+msgstr ""
+
+#: ../instructor.rst:43
+# 80d32f27554b4a7f938e99978aa45e02
+msgid "There could be two reasons."
+msgstr ""
+
+#: ../instructor.rst:45
+# c5060e8c439b458cb2f09c2bded697d5
+msgid "You only see assignments or quiz questions that your students have attempted.  If you or your students haven't attempted any assignments yet then this report will be empty."
+msgstr ""
+
+#: ../instructor.rst:47
+# a8ad5ad9976540b49009797cfd092da2
+msgid "Check your course starting date.  If the starting date is in the future you won't see anything.  You can change your course start date `here <http://interactivepython.org/runestone/admin/startdate>`_."
+msgstr ""
+
+#: ../instructor.rst:51
+# d6e509a6ab6b494787bc67e27b304187
+msgid "I want to reuse my course from last year, what should I do?"
+msgstr ""
+
+#: ../instructor.rst:53
+# 91dde4a35eb347d2ab73138d6132109b
+msgid "You can either just change your course start date, see above, or you can rebuild your course.   We recommend that you rebuild your course every so often to get the latest bug fixes etc.  Here is the link to `rebuild your course <http://interactivepython.org/runestone/admin/rebuildcourse>`_."
+msgstr ""
+
+#: ../instructor.rst:55
+# ac06571a04ef4858897418ee21ca5786
+msgid "All the data from past terms is still saved in the database so students that want to go back and look at things from their past terms will be able to access their information, but nothing prior to your latest course start date will show up in any of your reports."
+msgstr ""
+
+#: ../instructor.rst:59
+# e50c4fd0fe234908baaa68fc962472f3
+msgid "How do I update my course to get the latest bug fixes?"
+msgstr ""
+
+#: ../instructor.rst:61
+# e62922195ed24f448307c594a3bc2cf6
+msgid "Here is the link to `rebuild your course <http://interactivepython.org/runestone/admin/rebuildcourse>`_.   We recommend that you do this every so often.  The instructors page will show you the current version of our software used to build the thinkcspy and pythonds books.  It will also show you the version for your own course.   If you course is out of date you will also get a flash message in the upper right corner of your browser window."
+msgstr ""
+
+#: ../instructor.rst:65
+# ff156ba896e04a5cbe0a410dbb76148a
+msgid "I was just experimenting and I want to delete my course"
+msgstr ""
+
+#: ../instructor.rst:67
+# 6187eb64c47e4f34b905116cc8b02745
+msgid "We are working on an automatic way to delete a course, but its still in testing.  Until then send an email to me bmiller at luther dot edu and I'll remove the course."
+msgstr ""
+
+#: ../instructor.rst:70
+# 036cb8a3a6284db3bd6f316bfb69d240
+msgid "What if I want to add a new section or chapter?"
+msgstr ""
+
+#: ../instructor.rst:72
+# 4a4743846a924a86920083f79ba9b40e
+msgid "That would be awesome.  This whole book is open source.  You can grab a copy of the source on `github <http://github.com/bnmnetp/runestone>`_.  The source for thinkcspy and pythonds is in the source folder and there is a subfolder for each chapter.  If you want to make a whole new chapter then create a folder and follow the conventions of one of the other chapters.  There is full documentation for the markup language at `docs.runestoneinteractive.org <http://docs.runestoneinteractive.org>`_.  When you are finished make a pull request and we'll review your material and incorporate them into the book."
+msgstr ""
+
+#: ../instructor.rst:75
+# 3283ee233e4548138c7728c68805bfb2
+msgid "What if I want to add my own exercises?"
+msgstr ""
+
+#: ../instructor.rst:77
+# b2a7c8021d6446258cd0c9af9327d09f
+msgid "New exercises are always welcome and we would love to expand the number of exercises.  The simplest way is to go to the `github issues <http://github.com/bnmnetp/runestone/issues>`_ page and file a new issue.  In the description simply include the text for the exercise and which chapter you think it should go in.  We'll take it from there.  After we've added the exercise you can rebuild your book and it will be there."
+msgstr ""
+
+#: ../instructor.rst:80
+# 04e8ff43af534788bf3cfa9328b547f5
+msgid "What version of Python does your book use?"
+msgstr ""
+
+#: ../instructor.rst:82
+# 12b174bab8744bb19d6fe97eceecbf3f
+msgid "Ok, this is a question that has the potential to start nasty religious wars.  The technical answer is that this book uses a version of Python called `Skulpt <http://skulpt.org>`_.  It is entirely written in Javascript so that it runs right in the browser.  We think this is very cool.  Now some poeple get all crazy about whether they should teach Python 3 or Python 2.  The truth is that for CS1 and CS2 it really doesn't matter.  Skulpt can do print with or without parenthesis, and lets face it for CS1 thats really all that matters.   Sure, there are differences, but are you really going to start out by teaching your students about `dict_keys` and how they are different from a `list`.  If so, I think you are cruel and you should teach your students APL.  If you want to slant your teaching toward Python 3, you can do that with this book.  If you want to lean towards 2, you can do that too."
+msgstr ""
+
+#: ../instructor.rst:86
+# 8c09e9e02f274d32847be85d93d85384
+msgid "I think there is a bug in your book what should I do?"
+msgstr ""
+
+#: ../instructor.rst:88
+# 4ff15a6ed9c245b6b84c2f71da7c8429
+msgid "Please let us know!  You can file bug reports on our `github issues page <http://github.com/bnmnetp/runestone/issues>`_.  Thanks!  If you don't have a github account then you can tweet me at iRunestone   or visit our `google.groups discussion <https://groups.google.com/forum/#!forum/runestoneinteractive>`_"
+msgstr ""
+
+#: ../instructor.rst:92
+# 64e02c4e01d045d9b003519875111275
+msgid "I have a question that is not covered here!"
+msgstr ""
+
+#: ../instructor.rst:94
+# 8d33fc1ddc3c403e99669fad444807df
+msgid "Tweet me @iRunestone"
+msgstr ""
+
+#: ../instructor.rst:95
+# 61a9d491d8154f90930fdeb3175f6517
+msgid "Post the question on our google group"
+msgstr ""
+
+#: ../instructor.rst:96
+# dae308dd8f174640bb1baec98afa9718
+msgid "Send me a private email.  bmiller at luther dot edu"
+msgstr ""
+

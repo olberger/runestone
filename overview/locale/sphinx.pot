@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013 Brad Miller, David Ranum
+# This file is distributed under the same license as the Runestone Interactive Overview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Runestone Interactive Overview 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-16 14:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/localtoc.html:2
+# 86a7a75f6ad5429294359e82a2255089
+msgid "Page"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:272
+# 624995f06cc043db9704910532701fdc
+msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:274
+# 80b0fcb1228440ce930683dc83ae659c
+msgid "&copy; Copyright %(copyright)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:278
+# 1cf1a4c3886d47ba91951f4f131a1dec
+msgid "Last updated on %(last_updated)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:281
+# 8130d4883d0a4788a3c660c187f3dc20
+msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/sourcelink.html:3
+# d6870f76ffdc4748b5e37db4ce1e5171
+msgid "Source"
+msgstr ""
+

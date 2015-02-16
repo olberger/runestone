@@ -1,0 +1,38 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Runestone Interactive Overview 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-16 14:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/localtoc.html:2
+msgid "Page"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:272
+msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:274
+msgid "&copy; Copyright %(copyright)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:278
+msgid "Last updated on %(last_updated)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:281
+msgid ""
+"Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> "
+"%(sphinx_version)s."
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/sourcelink.html:3
+msgid "Source"
+msgstr ""
