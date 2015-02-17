@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Runestone Interactive Overview 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-16 14:38+0100\n"
-"PO-Revision-Date: 2015-02-16 16:37+0100\n"
+"PO-Revision-Date: 2015-02-17 11:30+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -311,7 +311,7 @@ msgstr ""
 
 #: ../overview.rst:280
 msgid "Unit Tests for Code"
-msgstr ""
+msgstr "Tests unitaires pour le code"
 
 #: ../overview.rst:282
 msgid ""
@@ -320,6 +320,11 @@ msgid ""
 "some tests for them.  Much of the ``unittest`` module from Python is "
 "available in the ``unittest`` module for activecode.  Take a look:"
 msgstr ""
+"Il est satisfaisant de faire en sorte que les étudiants résolvent un\n"
+"problème particulier en écrivant du code, mais c'est encore mieux si\n"
+"vous pouvez leur fournir un retour et leur des tests. Une grande\n"
+"partie du module ``unittest`` de Python est disponible dans le module\n"
+"``unittest`` pour activecode. Regardez :"
 
 #: ../overview.rst:300
 msgid ""
@@ -333,18 +338,31 @@ msgid ""
 "contains ``====``.  The source code for the above example with the unit "
 "tests hidden would look like this:"
 msgstr ""
+"Avant d'aller plus loin, corrigez la fonction add (*ajout*) dans la\n"
+"boîte activebox. L'ensemble des fonctions correspondant à assertXXX\n"
+"est disponible. Vous pouvez voir la liste `ici\n"
+"<http://docs.python.org/2/library/unittest.html#assert-methods>`_. Maintenant,\n"
+"un cours d'introduction expliquant les détails internes de la classe\n"
+"unittest pourrait bien ajouter plus de confusion qu'autre chose. Mais\n"
+"vous pouvez quand-même bénéficier du module unittest avec activecode\n"
+"en le plaçant dans le code caché à la fin. Vous pouvez cacher le code\n"
+"en le plaçant après la ligne qui contient ``====``. The code source de\n"
+"l'exemple ci-dessus avec les tests unitaires cachés ressemblerait à\n"
+"ceci :"
 
 #: ../overview.rst:320
 msgid "**Check Your Understanding**"
-msgstr ""
+msgstr "**Vérifiez que vous avez compris**"
 
 #: ../overview.rst:322
 msgid "Fix the following code so that it always correctly adds two numbers."
 msgstr ""
+"Corrigez le code suivant de façon à ce qu'il additionne correctement\n"
+"deux nombres."
 
 #: ../overview.rst:345
 msgid "Disqus Comment Box"
-msgstr ""
+msgstr "Boîte de commentaires Disqus"
 
 #: ../overview.rst:347
 msgid ""
@@ -353,10 +371,15 @@ msgid ""
 "individual section or question, allowing discussion of that particular "
 "content."
 msgstr ""
+"Une boîte de commentaires peut êter ajoutée, permettant aux\n"
+"utilisateurs d'ajouter des commentaires et de commencer des\n"
+"discussions. Une boîte de commentaire peut être ajoutée au niveau de\n"
+"la page, mais aussi pour des sections individuelles ou des questions,\n"
+"permettant une discussion sur ce contenu en particulier."
 
 #: ../overview.rst:355
 msgid "Tabbed Question"
-msgstr ""
+msgstr "Question dans un onglet"
 
 #: ../overview.rst:357
 msgid ""
@@ -364,40 +387,50 @@ msgid ""
 "question. This may be used to provide an possible answer or a Disqus "
 "discussion box specifically related to a certain question."
 msgstr ""
+"Tout type de question existant peut être placé dans une question\n"
+"affichée avec un style en onglet. Ceci peut servir à fournir une\n"
+"réponse possible ou nue boîte de discussion Disqus spécifiquement liée\n"
+"à une certaine question."
 
 #: ../overview.rst:363
 msgid "Write a program that prints \"Hello, world\"."
-msgstr ""
+msgstr "Écrivez une programme qui affiche \"Hello, world\"."
 
 #: ../overview.rst:377
 msgid ""
 "We are working on additional question types as well.  Give us your feedback "
 "on our `Facebook page <http://www.facebook.com/RunestoneInteractive>`_."
 msgstr ""
+"Nous travaillons aussi sur des type de questions\n"
+"supplémentaires. Donnez-nous vos impressions sur notre `page Facebook <http://www.facebook.com/RunestoneInteractive>`_."
 
 #: ../overview.rst:380
 msgid "Polls"
-msgstr ""
+msgstr "Sondages"
 
 #: ../overview.rst:389
 msgid "Reveals"
-msgstr ""
+msgstr "Masquages"
 
 #: ../overview.rst:394
 msgid ""
 "This content starts out hidden. It's visibility can be toggled by using the "
 "Show/Hide button."
 msgstr ""
+"Ce contenu démarre en mode caché. Sa visibilité peut être permutée en\n"
+"utilisant le bouton Show/Hide (*montrer/cacher*)."
 
 #: ../overview.rst:396
 msgid ""
 "The reveal block can also contain other directives (ActiveCode, Disqus "
 "block, etc):"
 msgstr ""
+"Le bloc masquable peut aussi contenir d'autres directives (ActiveCode,\n"
+"bloc Disqus, etc) :"
 
 #: ../overview.rst:404
 msgid "DOM Access"
-msgstr ""
+msgstr "Accès au DOM"
 
 #: ../overview.rst:406
 msgid ""
@@ -407,6 +440,12 @@ msgid ""
 ":textfield:`text1:example input:medium` like this one.  Try running the "
 "program, then change the value in the text entry box and run it again."
 msgstr ""
+"Les programmes Python écrits dans les fenêtres activecode peuvent\n"
+"maintenant importer le module ``document``. Ce module document permet\n"
+"d'accéder aux éléments de base de la page web, y compris la nouvelle\n"
+"boîte de saisie de texte appelée **text1** :textfield:`text1:example\n"
+"input:medium` comme celle-ci. Essayez d'exécuter le programme, puis\n"
+"changez la valeur dans la boîte de saisie de texte et lancez-le à nouveau."
 
 #: ../overview.rst:421
 msgid "JavaScript"
@@ -418,12 +457,19 @@ msgid ""
 "we have now made it possible to write activecode examples in pure javascript"
 " as well as Python.  Here is a simple example:"
 msgstr ""
+"Nous avons fini par nous rendre compte que tout le monde n'aime pas\n"
+"autant Python que nous. Donc nous avons maintenant fait en sortte\n"
+"d'écrire des exemples activecode en pur javascript aussi bien qu'en\n"
+"Python. Voici un exemple simple :"
 
 #: ../overview.rst:445
 msgid ""
 "Adding a javascript example is just as easy as Python, all you need to do is"
 " add a ``:language:`` parameter to the activecode directive."
 msgstr ""
+"Ajouter un exemple en javascript est tout aussi facile que pour\n"
+"Python, tout ce que vous avez à faire est d'ajouter un paramètre\n"
+"``:language:`` à la directive activecode."
 
 #: ../overview.rst:449
 msgid "HTML"
@@ -435,6 +481,9 @@ msgid ""
 "HTML too? Although you don't run HTML, clicking the run button will case the"
 " HTML to be rendered."
 msgstr ""
+"Vous enseignez un cours sur HTML et la conception web simple ?\n"
+"Pourquoi ne pas utiliser aussi activecode pour le HTML ? Bien que vous\n"
+"n'exécutiez pas le HTML, cliquer sur le bouton run fera s'afficher le HTML."
 
 #: ../overview.rst:475
 msgid "Blockly"
@@ -447,10 +496,15 @@ msgid ""
 "out the X block and connect it to the print block.  Now click the run button"
 " and you should see 10 printed in the gray output area."
 msgstr ""
+"Ajoutez une instuction print après l'initialisation de X à 10. Cliquez\n"
+"sur text et faites glisser un bloc print; connectez-le au bloc\n"
+"d'initialisation. Puis cliquez sur variables et faites glisser le bloc\n"
+"X et connectez-le au bloc print. Maintenant, cliquez sur le bouton run\n"
+"et vous devriez voir l'affichage de 10 dans la zone d'affichage grisée."
 
 #: ../overview.rst:515
 msgid "What To Do Now"
-msgstr ""
+msgstr "Et maintenant, que faire"
 
 #: ../overview.rst:517
 msgid ""
@@ -464,6 +518,19 @@ msgid ""
 "introduction to data structures and algorithms using Python.  Topics include"
 " stacks, queues, trees, graphs, and recursion."
 msgstr ""
+"Maintenant que vous avez vu certains de ces outils en action, vous\n"
+"pouvez explorer plus avant en retournant sur le site de Runestone\n"
+"Interactive et en choisissant les examples de cours que nous avons\n"
+"déjà créé. Le premier,  **How to Think Like a Computer Scientist:\n"
+"Interactive Edition** (*Comment pensez comme un informaticien :\n"
+"édition interactive*), fournit un cours d'introduction. Ce cours\n"
+"couvre les idées de base de l'informatique et vous aide à apprendre à\n"
+"programmer en Python. Le second cours, **Problem Solving with\n"
+"Algorithms and Data Structures Using Python** (*Résolution de\n"
+"problèmes avec des algorithmes et structures de données en utilisant\n"
+"Python*), est une introduction détaillée aux structures de données et\n"
+"algorithmes en utilisant Python. Cela couvre les piles, les files, les\n"
+"arbres, les graphes et la récursion."
 
 #: ../overview.rst:523
 msgid ""
@@ -472,3 +539,7 @@ msgid ""
 "courseware.  Everything you need can be found in the current `GitHub "
 "repository <http://github.com/bnmnetp/runestone>`_."
 msgstr ""
+"Nous espérons que vous trouverez ces outils et ces contenus utiles. Si\n"
+"vous souhaitez vous impliquer plus, n'hésitez pas à télécharger les\n"
+"outils et à écrire votre propre cours. Tout ce dont vous avez besoin\n"
+"peut être trouvé dans le `référentiel GitHub <http://github.com/bnmnetp/runestone>`_."
