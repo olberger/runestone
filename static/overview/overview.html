@@ -267,16 +267,16 @@
 <li><a class="reference internal" href="#activecode-windows">Fenêtres ActiveCode</a></li>
 <li><a class="reference internal" href="#the-codelens-tool">L&#8217;outil CodeLens</a></li>
 <li><a class="reference internal" href="#self-check-questions">Questions d&#8217;auto-évaluation</a></li>
-<li><a class="reference internal" href="#unit-tests-for-code">Unit Tests for Code</a></li>
-<li><a class="reference internal" href="#disqus-comment-box">Disqus Comment Box</a></li>
-<li><a class="reference internal" href="#tabbed-question">Tabbed Question</a></li>
-<li><a class="reference internal" href="#polls">Polls</a></li>
-<li><a class="reference internal" href="#reveals">Reveals</a></li>
-<li><a class="reference internal" href="#dom-access">DOM Access</a></li>
+<li><a class="reference internal" href="#unit-tests-for-code">Tests unitaires pour le code</a></li>
+<li><a class="reference internal" href="#disqus-comment-box">Boîte de commentaires Disqus</a></li>
+<li><a class="reference internal" href="#tabbed-question">Question dans un onglet</a></li>
+<li><a class="reference internal" href="#polls">Sondages</a></li>
+<li><a class="reference internal" href="#reveals">Masquages</a></li>
+<li><a class="reference internal" href="#dom-access">Accès au DOM</a></li>
 <li><a class="reference internal" href="#javascript">JavaScript</a></li>
 <li><a class="reference internal" href="#html">HTML</a></li>
 <li><a class="reference internal" href="#blockly">Blockly</a></li>
-<li><a class="reference internal" href="#what-to-do-now">What To Do Now</a></li>
+<li><a class="reference internal" href="#what-to-do-now">Et maintenant, que faire</a></li>
 </ul>
 </li>
 </ul>
@@ -1049,8 +1049,12 @@ $(window).resize(function() {
 </script>
 </div>
 <div class="section" id="unit-tests-for-code">
-<h2>Unit Tests for Code<a class="headerlink" href="#unit-tests-for-code" title="Permalink to this headline">¶</a></h2>
-<p>Its nice to be able to have students solve a particular problem by writing some code, its even better if you can give them some feedback and provide some tests for them.  Much of the <tt class="docutils literal"><span class="pre">unittest</span></tt> module from Python is available in the <tt class="docutils literal"><span class="pre">unittest</span></tt> module for activecode.  Take a look:</p>
+<h2>Tests unitaires pour le code<a class="headerlink" href="#unit-tests-for-code" title="Permalink to this headline">¶</a></h2>
+<p>Il est satisfaisant de faire en sorte que les étudiants résolvent un
+problème particulier en écrivant du code, mais c&#8217;est encore mieux si
+vous pouvez leur fournir un retour et leur des tests. Une grande
+partie du module <tt class="docutils literal"><span class="pre">unittest</span></tt> de Python est disponible dans le module
+<tt class="docutils literal"><span class="pre">unittest</span></tt> pour activecode. Regardez :</p>
 
 <div id="cont"></div>
 <div id="units1" lang="python" class="ac_section alert alert-warning" >
@@ -1136,7 +1140,16 @@ else{
 
 </div>
 
-<p>Before you go on, fix the add function in the activecode box.  The full complement of assertXXX functions is available.  You can see the list <a class="reference external" href="http://docs.python.org/2/library/unittest.html#assert-methods">Here</a>.  Now, for an introductory course exposing the inner workings of the unittest class may lead to more confusion that anything.  But, you can still get the benefit of the unittest module with activecode by placing it in the hidden code at the end.  You can hide the code by placing it after a line that contains <tt class="docutils literal"><span class="pre">====</span></tt>.  The source code for the above example with the unit tests hidden would look like this:</p>
+<p>Avant d&#8217;aller plus loin, corrigez la fonction add (<em>ajout</em>) dans la
+boîte activebox. L&#8217;ensemble des fonctions correspondant à assertXXX
+est disponible. Vous pouvez voir la liste <a class="reference external" href="http://docs.python.org/2/library/unittest.html#assert-methods">ici</a>. Maintenant,
+un cours d&#8217;introduction expliquant les détails internes de la classe
+unittest pourrait bien ajouter plus de confusion qu&#8217;autre chose. Mais
+vous pouvez quand-même bénéficier du module unittest avec activecode
+en le plaçant dans le code caché à la fin. Vous pouvez cacher le code
+en le plaçant après la ligne qui contient <tt class="docutils literal"><span class="pre">====</span></tt>. The code source de
+l&#8217;exemple ci-dessus avec les tests unitaires cachés ressemblerait à
+ceci :</p>
 <div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">activecode</span><span class="p">::</span> units1
 
    def add(a,b):
@@ -1154,8 +1167,9 @@ else{
    myTests().main()
 </pre></div>
 </div>
-<p><strong>Check Your Understanding</strong></p>
-<p>Fix the following code so that it always correctly adds two numbers.</p>
+<p><strong>Vérifiez que vous avez compris</strong></p>
+<p>Corrigez le code suivant de façon à ce qu&#8217;il additionne correctement
+deux nombres.</p>
 
 <div id="cont"></div>
 <div id="units2" lang="python" class="ac_section alert alert-warning" >
@@ -1241,8 +1255,12 @@ else{
 
 </div>
 <div class="section" id="disqus-comment-box">
-<h2>Disqus Comment Box<a class="headerlink" href="#disqus-comment-box" title="Permalink to this headline">¶</a></h2>
-<p>A comment box allowing users to add comments and start discussions can be added. A comment box can be added at the page level, but also for an individual section or question, allowing discussion of that particular content.</p>
+<h2>Boîte de commentaires Disqus<a class="headerlink" href="#disqus-comment-box" title="Permalink to this headline">¶</a></h2>
+<p>Une boîte de commentaires peut êter ajoutée, permettant aux
+utilisateurs d&#8217;ajouter des commentaires et de commencer des
+discussions. Une boîte de commentaire peut être ajoutée au niveau de
+la page, mais aussi pour des sections individuelles ou des questions,
+permettant une discussion sur ce contenu en particulier.</p>
 <script type="text/javascript">
     function discussion1_disqus(source) { 
         if (window.DISQUS) {
@@ -1282,8 +1300,11 @@ else{
 </script>
 </div>
 <div class="section" id="tabbed-question">
-<h2>Tabbed Question<a class="headerlink" href="#tabbed-question" title="Permalink to this headline">¶</a></h2>
-<p>Any of the existing question types can be placed in a tabbed exhibit-style question. This may be used to provide an possible answer or a Disqus discussion box specifically related to a certain question.</p>
+<h2>Question dans un onglet<a class="headerlink" href="#tabbed-question" title="Permalink to this headline">¶</a></h2>
+<p>Tout type de question existant peut être placé dans une question
+affichée avec un style en onglet. Ceci peut servir à fournir une
+réponse possible ou nue boîte de discussion Disqus spécifiquement liée
+à une certaine question.</p>
 <div id='exercise1' class='alert alert-warning'><ul class='nav nav-tabs' id='%(divid)s_tab'>
 <li>
     <a data-toggle='tab' href='#exercise1-Question1'><span>Question 1</span></a>
@@ -1292,7 +1313,7 @@ else{
 <li>
     <a data-toggle='tab' href='#exercise1-Discussion'><span>Discussion</span></a>
 </li>
-</ul><div class='tab-content'><div class='tab-pane' id='exercise1-Question1'><p>Write a program that prints &#8220;Hello, world&#8221;.</p>
+</ul><div class='tab-content'><div class='tab-pane' id='exercise1-Question1'><p>Écrivez une programme qui affiche &#8220;Hello, world&#8221;.</p>
 
 <div id="cont"></div>
 <div id="helloworld" lang="python" class="ac_section alert alert-warning" >
@@ -1428,10 +1449,11 @@ else{
             });
         })
     </script>
-<p>We are working on additional question types as well.  Give us your feedback on our <a class="reference external" href="http://www.facebook.com/RunestoneInteractive">Facebook page</a>.</p>
+<p>Nous travaillons aussi sur des type de questions
+supplémentaires. Donnez-nous vos impressions sur notre <a class="reference external" href="http://www.facebook.com/RunestoneInteractive">page Facebook</a>.</p>
 </div>
 <div class="section" id="polls">
-<h2>Polls<a class="headerlink" href="#polls" title="Permalink to this headline">¶</a></h2>
+<h2>Sondages<a class="headerlink" href="#polls" title="Permalink to this headline">¶</a></h2>
  <div id='pollid1' class='poll alert alert-warning'> 
     <form id='pollid1_poll' name='pollid1_poll' action="">
         <fieldset>
@@ -1527,15 +1549,17 @@ else{
 </div>
 </div>
 <div class="section" id="reveals">
-<h2>Reveals<a class="headerlink" href="#reveals" title="Permalink to this headline">¶</a></h2>
+<h2>Masquages<a class="headerlink" href="#reveals" title="Permalink to this headline">¶</a></h2>
 
     <button type='button' id='revealid1_show' class='btn btn-default reveal_button' style='margin-bottom:10px;' onclick="$(this).hide();$('#revealid1').show();$('#revealid1_hide').show();$('#revealid1').find('.CodeMirror').each(function(i, el){el.CodeMirror.refresh();});">
         Reveal Content
     </button>
     <button type='button' id='revealid1_hide' class='btn btn-default reveal_button' onclick="$(this).hide();$('#revealid1').hide();$('#revealid1_show').show();" style='display:none'>Hide Content</button>
     <div id='revealid1' style='display:none'>
-<p>This content starts out hidden. It&#8217;s visibility can be toggled by using the Show/Hide button.</p>
-<p>The reveal block can also contain other directives (ActiveCode, Disqus block, etc):</p>
+<p>Ce contenu démarre en mode caché. Sa visibilité peut être permutée en
+utilisant le bouton Show/Hide (<em>montrer/cacher</em>).</p>
+<p>Le bloc masquable peut aussi contenir d&#8217;autres directives (ActiveCode,
+bloc Disqus, etc) :</p>
 
 <div id="cont"></div>
 <div id="ac11" lang="python" class="ac_section alert alert-warning" >
@@ -1615,11 +1639,13 @@ else{
     </div>
 </div>
 <div class="section" id="dom-access">
-<h2>DOM Access<a class="headerlink" href="#dom-access" title="Permalink to this headline">¶</a></h2>
-<p>Python programs written in activecode windows can now import the <tt class="docutils literal"><span class="pre">document</span></tt> module. This document module
-allows access to basic elements of the web page, including the new text entry box called
-<strong>text1</strong> <input type='text' id='text1' class="form-control" style="display:inline; width: 150px;" value="example input"></input> like this one.  Try running the program, then change
-the value in the text entry box and run it again.</p>
+<h2>Accès au DOM<a class="headerlink" href="#dom-access" title="Permalink to this headline">¶</a></h2>
+<p>Les programmes Python écrits dans les fenêtres activecode peuvent
+maintenant importer le module <tt class="docutils literal"><span class="pre">document</span></tt>. Ce module document permet
+d&#8217;accéder aux éléments de base de la page web, y compris la nouvelle
+boîte de saisie de texte appelée <strong>text1</strong> <input type='text' id='text1' class="form-control" style="display:inline; width: 150px;" value="example
+input"></input> comme celle-ci. Essayez d&#8217;exécuter le programme, puis
+changez la valeur dans la boîte de saisie de texte et lancez-le à nouveau.</p>
 
 <div id="cont"></div>
 <div id="tftest1" lang="python" class="ac_section alert alert-warning" >
@@ -1700,9 +1726,10 @@ else{
 </div>
 <div class="section" id="javascript">
 <h2>JavaScript<a class="headerlink" href="#javascript" title="Permalink to this headline">¶</a></h2>
-<p>We have come to realize that not everyone loves Python as much as we do.
-So we have now made it possible to write activecode examples in pure javascript as well
-as Python.  Here is a simple example:</p>
+<p>Nous avons fini par nous rendre compte que tout le monde n&#8217;aime pas
+autant Python que nous. Donc nous avons maintenant fait en sortte
+d&#8217;écrire des exemples activecode en pur javascript aussi bien qu&#8217;en
+Python. Voici un exemple simple :</p>
 
 <div id="cont"></div>
 <div id="jstest1" lang="javascript" class="ac_section alert alert-warning" >
@@ -1788,13 +1815,15 @@ else{
 
 </div>
 
-<p>Adding a javascript example is just as easy as Python, all you need to do is add a <tt class="docutils literal"><span class="pre">:language:</span></tt>
-parameter to the activecode directive.</p>
+<p>Ajouter un exemple en javascript est tout aussi facile que pour
+Python, tout ce que vous avez à faire est d&#8217;ajouter un paramètre
+<tt class="docutils literal"><span class="pre">:language:</span></tt> à la directive activecode.</p>
 </div>
 <div class="section" id="html">
 <h2>HTML<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h2>
-<p>Teaching a class on HTML and simple web design?  Why not use activecode for HTML too?
-Although you don&#8217;t run HTML, clicking the run button will case the HTML to be rendered.</p>
+<p>Vous enseignez un cours sur HTML et la conception web simple ?
+Pourquoi ne pas utiliser aussi activecode pour le HTML ? Bien que vous
+n&#8217;exécutiez pas le HTML, cliquer sur le bouton run fera s&#8217;afficher le HTML.</p>
 
 <div id="cont"></div>
 <div id="html1" lang="html" class="ac_section alert alert-warning" >
@@ -1885,19 +1914,31 @@ else{
 </div>
 <div class="section" id="blockly">
 <h2>Blockly<a class="headerlink" href="#blockly" title="Permalink to this headline">¶</a></h2>
-<iframe class="blk-iframe" seamless src="_static/blockly1.html" width="600" height="600"></iframe><p>Add a print statement after the set X to 10.  Click on text and drag out a print block;
-connect it to the set block.  Then click on variables and drag out the X block and
-connect it to the print block.  Now click the run button and you should see 10 printed
-in the gray output area.</p>
+<iframe class="blk-iframe" seamless src="_static/blockly1.html" width="600" height="600"></iframe><p>Ajoutez une instuction print après l&#8217;initialisation de X à 10. Cliquez
+sur text et faites glisser un bloc print; connectez-le au bloc
+d&#8217;initialisation. Puis cliquez sur variables et faites glisser le bloc
+X et connectez-le au bloc print. Maintenant, cliquez sur le bouton run
+et vous devriez voir l&#8217;affichage de 10 dans la zone d&#8217;affichage grisée.</p>
 </div>
 <div class="section" id="what-to-do-now">
-<h2>What To Do Now<a class="headerlink" href="#what-to-do-now" title="Permalink to this headline">¶</a></h2>
-<p>Now that you have seen some of these tools in action, you can do more exploration by going back to the Runestone Interactive
-site and choosing the courseware examples that we have already created.  The first,
-<strong>How to Think Like a Computer Scientist: Interactive Edition</strong>, provides an introductory course.  This course covers the basic ideas
-of computer science and helps you learn Python programming.  The second course, <strong>Problem Solving with Algorithms and Data Structures Using Python</strong>, is a thorough introduction to data structures and algorithms using Python.  Topics include stacks,
-queues, trees, graphs, and recursion.</p>
-<p>We hope you will find these tools and materials useful.  If you want to get more involved, feel free to download the tools and write your own courseware.  Everything you need can be found in the current <a class="reference external" href="http://github.com/bnmnetp/runestone">GitHub repository</a>.</p>
+<h2>Et maintenant, que faire<a class="headerlink" href="#what-to-do-now" title="Permalink to this headline">¶</a></h2>
+<p>Maintenant que vous avez vu certains de ces outils en action, vous
+pouvez explorer plus avant en retournant sur le site de Runestone
+Interactive et en choisissant les examples de cours que nous avons
+déjà créé. Le premier,  <strong>How to Think Like a Computer Scientist:
+Interactive Edition</strong> (<em>Comment pensez comme un informaticien :
+édition interactive</em>), fournit un cours d&#8217;introduction. Ce cours
+couvre les idées de base de l&#8217;informatique et vous aide à apprendre à
+programmer en Python. Le second cours, <strong>Problem Solving with
+Algorithms and Data Structures Using Python</strong> (<em>Résolution de
+problèmes avec des algorithmes et structures de données en utilisant
+Python</em>), est une introduction détaillée aux structures de données et
+algorithmes en utilisant Python. Cela couvre les piles, les files, les
+arbres, les graphes et la récursion.</p>
+<p>Nous espérons que vous trouverez ces outils et ces contenus utiles. Si
+vous souhaitez vous impliquer plus, n&#8217;hésitez pas à télécharger les
+outils et à écrire votre propre cours. Tout ce dont vous avez besoin
+peut être trouvé dans le <a class="reference external" href="http://github.com/bnmnetp/runestone">référentiel GitHub</a>.</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
