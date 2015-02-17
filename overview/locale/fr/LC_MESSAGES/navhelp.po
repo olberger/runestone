@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Runestone Interactive Overview 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-16 14:38+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-02-17 13:31+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -13,21 +13,23 @@ msgstr ""
 
 #: ../navhelp.rst:10
 msgid "Getting Around The Book"
-msgstr ""
+msgstr "Se repérer dans le livre"
 
 #: ../navhelp.rst:12
 msgid ""
 "This page will help you learn how to get around this interactive textbook "
 "and use the embedded tools."
 msgstr ""
+"Cette page va vous apprendre à vous repérer dans ce\n"
+"manuel interactif et à utiliser les outils intégrés."
 
 #: ../navhelp.rst:15
 msgid "Navigation Bar"
-msgstr ""
+msgstr "Barre de navigation"
 
 #: ../navhelp.rst:39
 msgid "ActiveCode Windows"
-msgstr ""
+msgstr "Fenêtres ActiveCode"
 
 #: ../navhelp.rst:41
 msgid ""
@@ -40,6 +42,17 @@ msgid ""
 " it provides an excellent environment for learning a programming language "
 "like Python since you can experiment with the language as you are reading."
 msgstr ""
+"Une des choses les plus importantes que vous pouvez faire quand vous\n"
+"apprenez un langage de programmation est d'écrire des\n"
+"programmes. Malheureusement, les manuels classiques vous permettent de\n"
+"lire à propos de la programmation, mais ils ne vous permettent pas de\n"
+"pratiquer. Nous avons créé un outil unique appelé **ActiveCode** qui\n"
+"vous permet d'écrire, modifier, et exécuter des programmes directement\n"
+"depuis le texte (directement dans le navigateur web). Bien que ça ne\n"
+"soit certainement pas comme ça qu'on écrit des vrais programmes, cela\n"
+"fournit un excellent environnement pour apprendre à programmer dans un\n"
+"langage comme Python puisque vous pouvez expérimenter avec le langage\n"
+"en même temps que vous lisez."
 
 #: ../navhelp.rst:47
 msgid ""
@@ -48,10 +61,14 @@ msgid ""
 "directly by pressing the *Run* button.   Try pressing the *Run* button "
 "below."
 msgstr ""
+"Observez l'interpréteur ActiveCode en action. Si nous prenons un\n"
+"simple programme Python et qu'on le rend actif, vous verrez qu'il peut\n"
+"être exécuté directement en pressant le bouton *Run*\n"
+"(*lancer*). Essayez de cliquer sur le bouton *Run* ci-dessous."
 
 #: ../navhelp.rst:56
 msgid "The CodeLens Tool"
-msgstr ""
+msgstr "L'outil CodeLens"
 
 #: ../navhelp.rst:58
 msgid ""
@@ -65,10 +82,21 @@ msgid ""
 "Codelens you can see and control the step by step progress.  Try clicking on"
 " the *Forward* button below."
 msgstr ""
+"En plus d'ActiveCode, vous pouvez aussi exécuter du code Python avec\n"
+"l'aide d'un outil de visualisation unique. Cet outil, appelé\n"
+"**CodeLens**, vous permet de contrôler l'exécution au pas-à-pas du\n"
+"programme. Il vous permet aussi de voir les valeurs de toutes les\n"
+"variables au fur et à mesure qu'elles sont créées et\n"
+"modifiées. L'exemple suivant montre CodeLens en action sur le même\n"
+"programme simple que précédamment. Souvenez-vous que dans ActiveCode, le code\n"
+"source s'exécute depuis le début jusqu'à la fin et que vous pouvez\n"
+"voir le résultat final. Dans CodeLens vous pouvez voir et contrôler la\n"
+"progression pas à pas. Essayez de cliquer sur le bouton *Forward* (*en\n"
+"avant*) ci-dessous."
 
 #: ../navhelp.rst:69
 msgid "Self-Check Questions"
-msgstr ""
+msgstr "Questions d'auto-évaluation"
 
 #: ../navhelp.rst:71
 msgid ""
@@ -77,14 +105,19 @@ msgid ""
 "questions also provide feedback so that you can understand why an answer may"
 " or may not be correct."
 msgstr ""
+"Enfin, il est aussi possible d'intégrer dans le texte des questions\n"
+"simples. Ces questions vous offrent un moyen de vous évaluer au\n"
+"fur et à mesure de votre avancement. Ces questions fournissent aussi un\n"
+"retour afin que vous puissiez comprendre pourquoi une réponse est\n"
+"correcte ou non."
 
 #: ../navhelp.rst:75 ../navhelp.rst:109
 msgid "**Check your understanding**"
-msgstr ""
+msgstr "**Vérifiez votre compréhension**"
 
 #: ../navhelp.rst:88
 msgid "sc-1-1: What programming language does this site help you to learn?"
-msgstr ""
+msgstr "sc-1-1: Quel langage de programmation ce site vous aide-t-il à apprendre ?"
 
 #: ../navhelp.rst:91
 msgid ""
@@ -92,16 +125,21 @@ msgid ""
 "required.  The feedback will tell you whether you have the correct number as"
 " well as the feedback for each."
 msgstr ""
+"Le type de question suivant permet d'exiger plus d'une réponse\n"
+"correcte. Le retour expliquera si vous avez obtenu le bon nombre de\n"
+"réponses ainsi que le retour pour chacune."
 
 #: ../navhelp.rst:106
 msgid ""
 "sc-1-2: Which colors might be found in a rainbow? (choose all that are "
 "correct)"
 msgstr ""
+"sc-1-2: Quelles couleurs peut-on trouver dans un arc-en-ciel ?\n"
+"(saisissez toutes celles qui sont correctes)"
 
 #: ../navhelp.rst:122
 msgid "Embedded Videos"
-msgstr ""
+msgstr "Vidéos intégrées"
 
 #: ../navhelp.rst:124
 msgid ""
@@ -113,3 +151,11 @@ msgid ""
 " if you click on the video shown below, you will hear us talk about the "
 "tools that will be described shortly."
 msgstr ""
+"Notre boite-à-outils fournit un ensemble de choses qui vont vous aider\n"
+"à apprendre à programmer avec le langage de programmation Python. En\n"
+"plus de lire le texte, il est parfois utile d'entendre quelqu'un vous\n"
+"parler des différents aspects du sujet dont il est question. Afin de\n"
+"permettre cela, nous fournissons une façon simple d'intégrer de\n"
+"courtes vidéos dans le texte. Par exemple, si vous cliquez sur la\n"
+"vidéo affichée ci-dessous, vous nous entendrez parler des outils qui\n"
+"vont être décrits très bientôt."
