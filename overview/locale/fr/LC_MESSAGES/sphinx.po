@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Runestone Interactive Overview 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-16 14:38+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-02-17 15:47+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,71 @@ msgid ""
 "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> "
 "%(sphinx_version)s."
 msgstr ""
+"Créé en utilisant <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> "
+"%(sphinx_version)s."
 
 #: ../_templates/plugin_layouts/sphinx_bootstrap/sourcelink.html:3
 msgid "Source"
 msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:263
+msgid "Back to top"
+msgstr "Retour en haut"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/subchapter.html:11
+#: ../_templates/plugin_layouts/sphinx_bootstrap/subchapter.html:16
+msgid "Next Section"
+msgstr "Section suivante"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/subchapter.html:2
+msgid "Previous Section"
+msgstr "Section précédente"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:116
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:118
+msgid "Table of Contents"
+msgstr "Table des matières"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:120
+msgid "Book Index"
+msgstr "Index du livre"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:152
+msgid "Join a Study Group"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:153
+msgid "Group Schedule"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:154
+msgid "Schedule New Chapter"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:155
+msgid "Manage Group"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:157
+msgid "Instructor's Page"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:158
+msgid "Progress Page"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:160
+msgid "Edit Profile"
+msgstr "Modifier le profil"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:161
+msgid "Change Password"
+msgstr "Changer le mot-de-passe"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:162
+msgid "Register"
+msgstr "S'inscrire"
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:163
+msgid "Login"
+msgstr "Se connecter"

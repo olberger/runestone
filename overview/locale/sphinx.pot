@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runestone Interactive Overview 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-16 14:38+0100\n"
+"POT-Creation-Date: 2015-02-17 15:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,111 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../_templates/plugin_layouts/sphinx_bootstrap/localtoc.html:2
-# 86a7a75f6ad5429294359e82a2255089
+# 36584ba23f8145639b9b569a52605dad
 msgid "Page"
 msgstr ""
 
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:116
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:118
+# f7db835fcb7b41fbbc583ce5cd3ea1d6
+# b5067fa0d3054597a64fda4d446b7d58
+msgid "Table of Contents"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:120
+# c9a2ac6e57814781838a50e1900864ff
+msgid "Book Index"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:152
+# e053de7e52624a50a5703bf57efa705e
+msgid "Join a Study Group"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:153
+# 253d9b8b0b5c49d1888f77e636ba6b1a
+msgid "Group Schedule"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:154
+# 7f8716d84e0947eeb2dc60be679be775
+msgid "Schedule New Chapter"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:155
+# b2a4f18a02884dcf8d60b62ae9528f42
+msgid "Manage Group"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:157
+# 975a5f76a7634f2d8c46d359c8e7851d
+msgid "Instructor's Page"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:158
+# abec0906df53424593b9864fed540a0a
+msgid "Progress Page"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:160
+# 8ab05bca65c44e418bb70068c3713287
+msgid "Edit Profile"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:161
+# 2e211d0503cf4dd8a67777b59fe9f165
+msgid "Change Password"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:162
+# e8f554510ebb470fabf9da6a1cff558b
+msgid "Register"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:163
+# 4219d94d715043009398cfcab5b7dbf5
+msgid "Login"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:263
+# b96e3e19752a46b9b88025a403536862
+msgid "Back to top"
+msgstr ""
+
 #: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:272
-# 624995f06cc043db9704910532701fdc
+# 6a29ab05026049a491453c8bd97ef410
 msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
 msgstr ""
 
 #: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:274
-# 80b0fcb1228440ce930683dc83ae659c
+# 4aa73cca22b747f49cfe04062869a861
 msgid "&copy; Copyright %(copyright)s."
 msgstr ""
 
 #: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:278
-# 1cf1a4c3886d47ba91951f4f131a1dec
+# 97b92cd7464a46df9bfe7caf34183657
 msgid "Last updated on %(last_updated)s."
 msgstr ""
 
 #: ../_templates/plugin_layouts/sphinx_bootstrap/layout.html:281
-# 8130d4883d0a4788a3c660c187f3dc20
+# bc0bb527003a496c83900cda21349f85
 msgid "Created using <a href=\"http://sphinx.pocoo.org/\">Sphinx</a> %(sphinx_version)s."
 msgstr ""
 
 #: ../_templates/plugin_layouts/sphinx_bootstrap/sourcelink.html:3
-# d6870f76ffdc4748b5e37db4ce1e5171
+# 676b6e7ff20a4b29b89b30a8bee898d5
 msgid "Source"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/subchapter.html:2
+# 8662b70528904ef8968a1b4cfcfc60cf
+msgid "Previous Section"
+msgstr ""
+
+#: ../_templates/plugin_layouts/sphinx_bootstrap/subchapter.html:11
+#: ../_templates/plugin_layouts/sphinx_bootstrap/subchapter.html:16
+# 8b31d8811fc044d7b4847c483130f3a3
+# 3e29670377b44fae9817476b606747f9
+msgid "Next Section"
 msgstr ""
 
